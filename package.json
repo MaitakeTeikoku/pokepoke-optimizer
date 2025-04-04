@@ -11,8 +11,11 @@
     "git": "git add . && git commit && git push"
   },
   "dependencies": {
-    "@yamada-ui/lucide": "^1.10.5",
-    "@yamada-ui/react": "^1.7.6",
+    "@emotion/react": "^11.14.0",
+    "@emotion/styled": "^11.14.0",
+    "@fontsource/roboto": "^5.2.5",
+    "@mui/icons-material": "^7.0.0",
+    "@mui/material": "^7.0.0",
     "react": "^19.0.0",
     "react-dom": "^19.0.0",
     "vite-plugin-pwa": "^0.21.2"

@@ -21,7 +21,8 @@
     ```
     ```sh
     npm install vite-plugin-pwa
-    npm install @yamada-ui/react @yamada-ui/lucide
+    npm install @mui/material @emotion/react @emotion/styled @mui/icons-material
+    npm install @fontsource/roboto
     ```
 1. ローカルで起動。
     ```bash
@@ -54,7 +55,7 @@
             <meta charset="UTF-8" />
             <link rel="icon" type="image/svg+xml" href="/favicon.ico" />
             <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
-            <title>電気椅子ゲーム</title>
+            <title>ポケポケ最適化</title>
           </head>
           <body>
             <div id="root"></div>
@@ -101,10 +102,10 @@
           includeAssets: ['favicon.ico', 'logo192.png'],
           injectRegister: 'auto',
           manifest: {
-            name: '電気椅子ゲーム',
-            short_name: '電気椅子',
-            description: '電気椅子ゲーム',
-            theme_color: '#000000',
+            name: 'ポケポケ最適化',
+            short_name: 'ポケポケ最適化',
+            description: 'ポケポケの「パック開封ポイント」と「トレードメダル」の使い分けを最適化',
+            theme_color: '#141414',
             icons: [
               {
                 src: 'logo192.png',
